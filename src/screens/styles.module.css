@@ -1,0 +1,111 @@
+.app {
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.appGrid {
+    display: grid;
+    grid-template-columns: 8% 92%;
+    padding: 1.5rem;
+}
+
+.logo {
+    width: 100%;
+    height: 7rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.logo img {
+    width: 25%;
+    max-height: 5rem;
+}
+
+.forms {
+    width: 100%;
+    height: 100vh;
+    padding: 6rem 3rem;
+}
+
+.formPadding {
+    padding: .5rem;
+}
+
+
+.forms input[type="email"],
+[type="password"],
+[type="submit"],
+[type="text"],
+select {
+    border-radius: 0;
+    padding: 1rem;
+}
+
+.forms input::placeholder {
+    font-size: 13px;
+
+}
+
+.forms label {
+    font-size: 12px;
+}
+
+small {
+    color: gray;
+}
+
+.content {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 2rem;
+}
+
+.contentGrid {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 2%;
+}
+
+.color1 {
+    background: linear-gradient(90deg, rgb(253, 135, 93) 0%, rgba(253, 103, 172, 0.9) 100%), url(../assets/cctv.png);
+    background-size: contain;
+}
+
+.color2 {
+    background: linear-gradient(90deg, rgb(238, 113, 233) 0%, rgba(144, 113, 248, 0.9) 100%), url(../assets/cctv.png);
+    background-size: contain;
+}
+
+.color3 {
+    background: linear-gradient(90deg, rgb(56, 206, 190) 0%, rgba(19, 156, 210, 0.9) 100%), url(../assets/cctv.png);
+    background-size: contain;
+}
+
+.conGrid {
+    display: grid;
+    grid-template-columns: 60% 35%;
+    grid-gap: 3%;
+}
+
+.charts {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 2rem;
+}
+
+
+.blobGrid {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 7% 8% 7% 7% 7% 7% 7% 7% 7% 7%;
+    grid-gap: 3%;
+}

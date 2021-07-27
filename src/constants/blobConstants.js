@@ -1,0 +1,3 @@
+export const GET_BLOB_REQUEST = "GET_BLOB_REQUEST";
+export const GET_BLOB_SUCCESS = "GET_BLOB_SUCCESS";
+export const GET_BLOB_FAIL = "GET_BLOB_FAIL";
